@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Book;
+use App\User;
+use Illuminate\Support\Facades\DB;
 
 class BooksController extends Controller
 {
@@ -132,4 +134,65 @@ class BooksController extends Controller
     {
         //
     }
+
+    /*public function issue ()
+    {
+        //
+
+        $user_id = auth()->user()->id;
+        $user = User::find($user_id);
+        
+       //$book=Book::where_not_null('sent_at');
+        //return view('admin_pages.book_see')->with('book',$book)
+        
+
+
+
+
+        return view('pages.book_issue')->with('user',$user);
+    }
+
+    public function request (Request $request)
+    {
+        //
+
+        
+
+        $user_id = auth()->user()->id;
+        $user = User::find($user_id);
+
+        $r = new Request;
+        $r->user_id = $user_id;
+        
+       //$book=Book::where_not_null('sent_at');
+        //return view('admin_pages.book_see')->with('book',$book)
+        
+        $req = DB::select('select books.id from books books.name= ?', $request->input('name'));
+
+        $r->book_id=$req;
+
+        $r->save;
+
+
+
+
+        return view('layouts.admin')->with('users',$user);
+    }
+
+    
+
+   
+
+    public function approve (Request $request)
+    {
+        //
+        $user_id = auth()->user()->id;
+        $user = User::find($user_id);
+
+
+
+        return view('pages.book_issue')->with('users',$user);
+    }*/
+
+
 }

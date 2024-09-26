@@ -147,7 +147,6 @@ class StaffController extends Controller
         $s->age = $request->input('age');
         $s->aadhar_card = $request->input('aadhar_card');
         $s->email = $request->input('email');
-        $s->password = $request->input('password');
 
         $s->gender = $request->input('gender');
         //$s->user_id = auth()->user()->id;

@@ -28,6 +28,8 @@ class DonorsController extends Controller
     public function donate()
     {
         //
+        
+
         $user_id = auth()->user()->id;
         $user = User::find($user_id);
 
@@ -84,9 +86,9 @@ class DonorsController extends Controller
         
         //$s->user_id = auth()->user()->id;
         //$s->cover_image = $fileNameToStore;
-        $s->save();
+        //$s->save();
 
-        return redirect('/books')->with('success', 'Book details added');
+        //return redirect('/books')->with('success', 'Book details added');
     }
 
     /**

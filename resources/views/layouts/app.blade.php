@@ -121,7 +121,7 @@
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="/book-bank">Book Bank</a>
                 <a class="dropdown-item" href="/book-library">Book Library</a>
-                <a class="dropdown-item" href="counselling.html">Counselling</a>
+                <!--<a class="dropdown-item" href="counselling.html">Counselling</a>-->
               </div>
             </li>
             <li class="nav-item @@contact">

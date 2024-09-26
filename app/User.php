@@ -50,4 +50,8 @@ class User extends Authenticatable
     public function donations(){
         return $this->hasMany('App\Donor');
     }
+
+    public function issues(){
+        return $this->hasMany('App\Book');
+    }
 }

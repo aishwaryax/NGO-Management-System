@@ -61,8 +61,7 @@
                                             <div class="col-md-8 pr-1">
                                                 <div class="form-group">
                                                     {{Form::label('password_text','Password')}}
-                                                    {{Form::input('password', 'pass', $s->password,['class'=>'form-control'])
-}}
+                                                    {{Form::input('password', 'pass', $s->password,['class'=>'form-control'])}}
                                                 </div>
                                             </div>
                                         </div>

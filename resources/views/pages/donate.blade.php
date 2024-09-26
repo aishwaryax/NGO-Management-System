@@ -70,14 +70,13 @@
                                 @enderror
                             </div>
                         </div>
-
-                                        <div class="col-md-6">
-                                            
-                                                    <div class="form-group">
-                                                    {{Form::label('role_text','Payment Mode')}}
-                                                    {{Form::select('mode_of_payment', ['COD' => 'Cash', 'Debit card' => 'Debit card', 'Credit card' => 'Credit card','NEFT' => 'NEFT' ])}}                                                
-                                            </div>
-                                        </div>
+                        <div class="form-group">
+                            <label class="col-md-6 col-form-label text-md-right">
+                            
+                                {{Form::label('role_text','Payment Mode')}}
+                                {{Form::select('mode_of_payment', ['COD' => 'Cash', 'Debit card' => 'Debit card', 'Credit card' => 'Credit card','NEFT' => 'NEFT' ])}}                                                
+                            </label>
+                        </div>
 
                         <div class="form-group row">
                             <label for="dob" class="col-md-4 col-form-label text-md-right">{{ __('Date of Birth') }}</label>

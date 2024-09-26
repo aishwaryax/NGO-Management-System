@@ -35,7 +35,7 @@
                                             
                                         </div>
                                         <div class="row">
-                                            <div class="col-md-4 pl-1">
+                                            <div class="col-md-4 pl-3">
                                                 <div class="form-group">
                                                     {{Form::label('ap_text','Author')}}
                                                     {{Form::text('author', '',['class'=>'form-control','placeholder'=>'Author name'])}}
@@ -71,7 +71,7 @@
                                                 </div>
                                         </div>
 
-                                        <div class="col-md-6 px-5">
+                                        <div class="col-md-6 px-0">
                                             
                                                     <div class="form-group">
                                                     {{Form::label('genre_text','Genre')}}
@@ -86,14 +86,14 @@
                                         </div>
 
                                         <div class="row">
-                                            <div class="col-md-6 px-5">
+                                            <div class="col-md-4 px-3">
                                                 <div class="form-group">
                                                     {{Form::label('shelf_no_text','Shelf No')}}
                                                     {{Form::Number('shelf_no', "",['class'=>'form-control','placeholder'=>'Enter shelf no . . .'])}}
                                                 </div>
                                             </div>
                                             
-                                            <div class="col-md-6 px-5">
+                                            <div class="col-md-6 px-3">
                                                 <div class="form-group">
                                                     {{Form::label('copies_text','No. of Copies')}}
                                                     {{Form::Number('copies', "",['class'=>'form-control','placeholder'=>'Enter copies . . .'])}}
@@ -101,16 +101,16 @@
                                             </div>
                                             </div>
                                             <div class=row>
-                                            <div class="col-md-6 px-5">
+                                            <div class="col-md-6 px-3">
                                                 <div class="form-group">
                                                     {{Form::label('price_text','Price')}}
                                                     {{Form::Number('price', "",['class'=>'form-control','placeholder'=>'Enter price . . .'])}}
                                                 </div>
                                             </div>
-
+                                            </div>
                                         <div class="row">
                                             <div class="col-md-12 px-5">
-                                        {{Form::submit('Submit',['class'=>"btn btn-info btn-fill pull-right"])}}
+                                        {{Form::submit('Submit',['class'=>"btn btn-info btn-fill "])}}
                                         </div>
                                         </div>
 

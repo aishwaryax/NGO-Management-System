@@ -29,7 +29,7 @@
 
 <body>
     <div class="wrapper">
-        <div class="sidebar" data-image="admin_images/sb.png">
+        <div class="sidebar" data-image="admin_images/background.png">
             <!--
         Tip 1: You can change the color of the sidebar using: data-color="purple | blue | green | orange | red"
 
@@ -43,16 +43,16 @@
                 </div>
                 <ul class="nav">
                     @if(Request::url()=='http://bfa.test/staff')
-                        <li class="nav-item-active" href="/staff">
+                        <li class="nav-item" href="/staff">
                     @else
                     <li>
                     @endif
-                        <a class="nav-link active" href="/staff">
+                        <a class="nav-link" href="/staff">
                             <img width=20 height=20 src="/admin_images/staff.png">
                             <p>Staff</p>
                         </a>
                     </li>
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link" href="/books">
                             <img width=20 height=20 src="/admin_images/library.png"></img>
                             <p>Library</p>
@@ -65,19 +65,25 @@
                             <p>Add books</p>
                         </a>
                     </li>
-                    <li>
-                        <a class="nav-link" href="/books-approve">
+                    <!--<li>
+                        <a class="nav-link" href="/approve">
                             <img width=20 height=20 src="/admin_images/book_issue.png"></img>
                             <p>Approve book issue</p>
                         </a>
-                    </li>
+                    </li>-->
                     <li>
-                        <a class="nav-link" href="/donor">
-                            <img width=20 height=20 src="/admin_images/book_issue.png"></img>
+                        <a class="nav-link" href="/donors">
+                            <img width=20 height=20 src="/admin_images/donation.png"></img>
                             <p>View Donations</p>
                         </a>
                     </li>
 
+                     <li>
+                        <a class="nav-link" href="/issues">
+                            <img width=20 height=20 src="/admin_images/book_issue.png"></img>
+                            <p>Issue</p>
+                        </a>
+                    </li>
                     <li class="nav-item active active-pro">
                         <a class="nav-link active" href="/staff/create">
                             <img width=20 height=20 src="/admin_images/staff.png"></img>

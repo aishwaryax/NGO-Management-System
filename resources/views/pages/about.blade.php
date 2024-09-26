@@ -4,7 +4,7 @@
 
 
 <!-- page title -->
-<section class="page-title-section overlay" data-background="images/backgrounds/page-title.jpg">
+<section class="page-title-section overlay" data-background="images/">
   <div class="container">
     <div class="row">
       <div class="col-md-8">
@@ -12,22 +12,21 @@
           <li class="list-inline-item"><a class="h2 text-primary font-secondary" href="@@page-link">About Us</a></li>
           <li class="list-inline-item text-white h3 font-secondary @@nasted"></li>
         </ul>
-        <p class="text-lighten">Our courses offer a good compromise between the continuous assessment favoured by some universities and the emphasis placed on final exams by others.</p>
+        <p class="text-lighten">Our courses offer a good future for our users everyday and hope for a better future together.</p>
       </div>
     </div>
   </div>
 </section>
-<!-- /page title -->
 
 <!-- about -->
 <section class="section">
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <img class="img-fluid w-100 mb-4" src="images/about/about-page.jpg" alt="about image">
-        <h2 class="section-title">ABOUT OUR JOURNY</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.dolore magna aliqua. Ut enim ad minim veniam, quis nostrud. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe ipsa illo quod veritatis, magni debitis fugiat dolore voluptates! Consequatur, aliquid. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat perferendis sint optio similique. Et amet magni facilis vero corporis quos.</p>
-        <p>exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum a, facere fugit error accusamus est officiis vero in, nostrum laboriosam corrupti explicabo, cumque repudiandae deleniti perspiciatis quae consectetur enim. Laboriosam!</p>
+        <img class="img-fluid w-100 mb-4" src="images/cover.jpg" alt="about image">
+        <h2 class="section-title">ABOUT OUR JOURNEY</h2>
+        <p>We have been running the foundation for a less time and we have many more years to go and take the foundation forward in upcoming years. Bhavishya Foundation believes that unless members of the civil society are involved proactively in the process of development, sustainable change will not happen. Believing in this principle of 'Civic Driven Change', Smile Foundation sensitises the civil society in order to make them partners in its mission. </p>
+        <p>Bhavishya Foundation is to empower underprivileged children, youth and women through relevant education, innovative healthcare and market-focused livelihood programmes.We provide free books to the students. </p>
       </div>
     </div>
   </div>
@@ -41,50 +40,49 @@
       <!-- funfacts item -->
       <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
         <div class="text-center">
-          <h2 class="count text-white" data-count="60">0</h2>
+          <h2 class="count text-white" data-count="5">0</h2>
           <h5 class="text-white">TEACHERS</h5>
         </div>
       </div>
       <!-- funfacts item -->
       <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
         <div class="text-center">
-          <h2 class="count text-white" data-count="50">0</h2>
+          <h2 class="count text-white" data-count="15">0</h2>
           <h5 class="text-white">COURSES</h5>
         </div>
       </div>
       <!-- funfacts item -->
       <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
         <div class="text-center">
-          <h2 class="count text-white" data-count="1000">0</h2>
+          <h2 class="count text-white" data-count="70">0</h2>
           <h5 class="text-white">STUDENTS</h5>
         </div>
       </div>
       <!-- funfacts item -->
       <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
         <div class="text-center">
-          <h2 class="count text-white" data-count="3737">0</h2>
-          <h5 class="text-white">SATISFIED CLIENT</h5>
+          <h2 class="count text-white" data-count="477">0</h2>
+          <h5 class="text-white">VISITORS</h5>
         </div>
       </div>
     </div>
   </div>
 </section>
-<!-- /funfacts -->
 
 <!-- success story -->
-<section class="section bg-cover" data-background="images/backgrounds/success-story.jpg">
+<section class="section bg-cover" data-background="images/opening.vlc">
   <div class="container">
     <div class="row">
       <div class="col-lg-6 col-sm-4 position-relative success-video">
-        <a class="play-btn venobox" href="https://youtu.be/nA1Aqp0sPQo" data-vbtype="video">
+        <a class="play-btn venobox" href="C:\xampp\htdocs\bfa\public\images" data-vbtype="video">
           <i class="ti-control-play"></i>
         </a>
       </div>
       <div class="col-lg-6 col-sm-8">
         <div class="bg-white p-5">
           <h2 class="section-title">Success Stories</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
+          <p>Mission Education is a national level programme of Bhavishya Foundation, which is committed to providing basic education and healthcare to underprivileged children. Bhavishya Foundation believes that whether you are addressing healthcare, poverty, population control, unemployment or human rights, there's no better place to start than in the corridors of education.</p>
+          <p>100% of teachers received training in academic methodologies, ensuring an engaging environment for the children.10 Children directly provided education through the centre in Maharashtra.s</p>
         </div>
       </div>
     </div>
@@ -97,67 +95,26 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-12">
-          <h2 class="section-title">Our Teachers</h2>
+          <h2 class="section-title">Our Workshops</h2>
         </div>
         <!-- teacher -->
         <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
           <div class="card border-0 rounded-0 hover-shadow">
-            <img class="card-img-top rounded-0" src="images/teachers/teacher-1.jpg" alt="teacher">
-            <div class="card-body">
-              <a href="teacher-single.html">
-                <h4 class="card-title">Jacke Masito</h4>
-              </a>
-              <div class="d-flex justify-content-between">
-                <span>Teacher</span>
-                <ul class="list-inline">
-                  <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-facebook"></i></a></li>
-                  <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-twitter-alt"></i></a></li>
-                  <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-google"></i></a></li>
-                  <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-linkedin"></i></a></li>
-                </ul>
-              </div>
-            </div>
+            <img class="card-img-top rounded-0" src="images/w1.jpg" alt="teacher">
           </div>
         </div>
         <!-- teacher -->
         <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
           <div class="card border-0 rounded-0 hover-shadow">
-            <img class="card-img-top rounded-0" src="images/teachers/teacher-2.jpg" alt="teacher">
-            <div class="card-body">
-              <a href="teacher-single.html">
-                <h4 class="card-title">Clark Malik</h4>
-              </a>
-              <div class="d-flex justify-content-between">
-                <span>Teacher</span>
-                <ul class="list-inline">
-                  <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-facebook"></i></a></li>
-                  <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-twitter-alt"></i></a></li>
-                  <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-google"></i></a></li>
-                  <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-linkedin"></i></a></li>
-                </ul>
-              </div>
-            </div>
+            <img class="card-img-top rounded-0" src="images/w2.jpg" alt="teacher">
           </div>
         </div>
         <!-- teacher -->
         <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
           <div class="card border-0 rounded-0 hover-shadow">
-            <img class="card-img-top rounded-0" src="images/teachers/teacher-3.jpg" alt="teacher">
-            <div class="card-body">
-              <a href="teacher-single.html">
-                <h4 class="card-title">John Doe</h4>
-              </a>
-              <div class="d-flex justify-content-between">
-                <span>Teacher</span>
-                <ul class="list-inline">
-                  <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-facebook"></i></a></li>
-                  <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-twitter-alt"></i></a></li>
-                  <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-google"></i></a></li>
-                  <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-linkedin"></i></a></li>
-                </ul>
-              </div>
-            </div>
+            <img class="card-img-top rounded-0" src="images/w3.jpg" alt="teacher">
           </div>
+        </div>
         </div>
       </div>
     </div>

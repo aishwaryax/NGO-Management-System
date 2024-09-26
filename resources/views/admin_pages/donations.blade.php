@@ -48,7 +48,7 @@
                                     </table>
                                 
                                     @else
-                                        <p>No staff present!
+                                        <p>No donations present!
                                     @endif
                                 </div>
                             </div>
